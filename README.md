@@ -1,37 +1,36 @@
-# Netsuite Record Fetcher
+🌐 **Netsuite Record Fetcher** 🚀
 
-This is a command-line tool that allows you to fetch records from Netsuite using RESTlets. You can select the type of
-record to fetch and provide the record ID to retrieve.
+Explore this command-line wizardry, designed to effortlessly retrieve records from Netsuite using RESTlets. 📦✨ Just specify the type of record you want and provide its ID to pull it from the depths of Netsuite.
 
-## Usage
+## Usage 🛠️
 
-To use the tool, run the following command:
+To utilize this tool, execute the following command in your terminal:
 
 ```shell
 npm install
 ```
 
-You will be prompted to select the type of record to fetch and provide the record ID. The tool will then retrieve the
-record and log it to the console.
+You'll then be guided to choose the record type you wish to fetch and provide the record ID. Watch as the tool swiftly retrieves the record and presents it in your console.
 
-## Configuration
+## Configuration ⚙️
 
-The tool requires the following configuration:
+This tool relies on the following crucial configurations:
 
-- `netsuite.restletUrl`: The URL of the RESTlet to use for fetching records.
+- `netsuite.restletUrl`: The URL of the RESTlet to be used for record retrieval.
 
-You can set these configuration options in the `config.ts` file.
+You can easily configure these options in the `config.ts` file.
 
-## Supported Record Types
+## Supported Record Types 📚
 
-The tool supports the following record types:
+This versatile tool supports various record types, including:
 
 - salesorder
 - transaction
 - purchaseorder
 - employee
 - savedsearch
+- etc
 
-## License
+## License 📜
 
-This tool is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+This tool operates under the umbrella of the [MIT License](https://opensource.org/licenses/MIT). 🌐
